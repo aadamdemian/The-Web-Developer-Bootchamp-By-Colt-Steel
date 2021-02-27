@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+img{
+    width: 30%;
+    margin: 1.6666%;
+}
+
+nav{
+    width: 400px;
+    font-size: 1.1em;
+    margin: 1.6666%;
+    padding-bottom: 15px;
+    font-family: 'RocknRoll One', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(221, 200, 200);
+}

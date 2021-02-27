@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Form hey</h1>
+    <form action="">
+        <div class="first">
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="firstname" required>
+        </div>
+        <div class="last">
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="lastname" required>
+        </div>
+        <p>Vyber si ktore ahoj:</p>
+        <div class="moznosti">
+            <input type="radio" name="ahoj" id="mnko" value="mnko">
+            <label for="mnko">Ahojky Manako</label>
+        </div>
+        <div class="moznosti">
+            <input type="radio" name="ahoj" id="ljko" value="ljko">
+            <label for="ljko">Ahojky Lajko</label>
+        </div>
+        <div class="moznosti">
+            <input type="radio" name="ahoj" id="bjko" value="bjko">
+            <label for="bjko">Ahojky Bajko</label>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <label for="division">Select Age Group</label>
+            <select name="division" id="division">
+                <option value="kids">under 18</option>
+                <option value="adults">18-40</option>
+                <option value="old">40+</option>
+            </select>
+        </div>
+
+        <button>Register</button>
+    </form>
+</body>
+
+</html>
